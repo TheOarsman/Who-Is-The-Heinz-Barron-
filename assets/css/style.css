@@ -1,31 +1,21 @@
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-    header {
-      background: #772014;
-    }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
-  
-  #profile-pic {
-    width: 50px;
-    height: 100px;
-  }
+body {
+  background-color: #f76415;
+}
 
-  .crcl-img {
-    clip-path: circle();
-  }
+header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2993c8;
+  color: #ffffff;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
