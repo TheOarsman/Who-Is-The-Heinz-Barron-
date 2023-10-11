@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -11,6 +10,25 @@ header {
   color: rgba(255, 102, 0, 0.863);
 }
 
+
 .ulrich {
   color: white;
+}
+
+h1 {
+  margin: 0px 0px 0px 10px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin: 0px 10px 0px 0px;
+  font-size: medium;
+  color:rgba(255, 102, 0, 0.863)
+  }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
