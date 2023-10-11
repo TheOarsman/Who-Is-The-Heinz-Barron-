@@ -6,7 +6,7 @@
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #707070;
+  background-color: #807f7f;
   color: rgba(255, 102, 0, 0.863);
 }
 
@@ -36,9 +36,35 @@ ul li {
 .t-falls {
   height: 250px;
   width: 100%;
-  margin-bottom: 25px;
   background-image: url("../images/IMG-2988.jpg");
   background-size: cover;
   background-position: center;
+  color:rgba(255, 102, 0, 0.863)
 }
 
+/* bottom right text */
+.t-falls br {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  color: rgba(255, 102, 0, 0.863);
+}
+
+footer {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #707070;
+  color: rgba(255, 102, 0, 0.863);
+}
+
+a:link {
+  color: rgba(255, 102, 0, 0.863);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
