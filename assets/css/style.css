@@ -90,7 +90,7 @@ a:visited {
 https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20CSS%20property%20responsible%20for%20the%20circular%20shape%20is,height%20results%20in%20a%20circle. */
 .circular--portrait {
   position: relative;
-  left: -598px;
+  left: -610px;
   width: 68px;
   height: 68px;
   overflow: hidden;
