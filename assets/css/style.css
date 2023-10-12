@@ -1,11 +1,11 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #807f7f;
   color: rgba(255, 102, 0, 0.863);
 }
@@ -19,9 +19,6 @@ h1 {
   margin: 0px 0px 0px 80px;
 }
 
-.br {
-  
-}
 
 ul li {
   list-style: none;
@@ -38,6 +35,7 @@ ul li {
   align-items:center;
 }
 
+/* Background IMG underneath header */
 .t-falls {
   height: 250px;
   width: 100%;
@@ -45,13 +43,17 @@ ul li {
   background-size: cover;
   background-position: center;
   color:rgba(255, 102, 0, 0.863);
+	font-size: 47px;
+	-webkit-text-stroke: 1px white;
 }
 
-/* bottom right text */
-.t-falls br {
-  position: fixed;
-  bottom: 20px;
-  right: 15px;
+/* bottom right text on top of background img*/
+.t-falls-t {
+  position: absolute;
+  bottom: 300px;
+  right: 30px;
+  font-size: 3rem;
+  font-weight: bold;
   color: rgba(255, 102, 0, 0.863);
 }
 
@@ -88,7 +90,7 @@ a:visited {
 https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20CSS%20property%20responsible%20for%20the%20circular%20shape%20is,height%20results%20in%20a%20circle. */
 .circular--portrait {
   position: relative;
-  left: -615px;
+  left: -598px;
   width: 68px;
   height: 68px;
   overflow: hidden;
@@ -113,7 +115,7 @@ https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20
 }
 
 /* used for overlaying a card with a title */
-.card-header {
+.card-header-t-falls {
   position: relative;
   margin-top: -20px;
 }
