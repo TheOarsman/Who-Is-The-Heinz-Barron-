@@ -75,5 +75,6 @@ a:visited {
 }
 
 .msu {
-  color:rgba(255, 102, 0, 0.863)
+  color:rgba(2, 128, 2, 0.842);
+  font-weight: bold;
 }
