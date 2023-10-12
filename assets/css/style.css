@@ -5,7 +5,7 @@
 }
 
 header {
-  padding: 20px;
+  padding: 10px;
   background-color: #807f7f;
   color: rgba(255, 102, 0, 0.863);
 }
@@ -50,7 +50,7 @@ ul li {
 /* bottom right text on top of background img*/
 .t-falls-t {
   position: absolute;
-  bottom: 300px;
+  bottom: 310px;
   right: 30px;
   font-size: 3rem;
   font-weight: bold;
