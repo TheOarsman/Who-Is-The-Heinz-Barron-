@@ -78,3 +78,17 @@ a:visited {
   color:rgba(2, 128, 2, 0.842);
   font-weight: bold;
 }
+
+
+/* used for making grids of the same sizes */
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 4;
+}
+
+/* used for overlaying a card with a title */
+.card-header {
+  position: relative;
+  margin-top: -20px;
+}
