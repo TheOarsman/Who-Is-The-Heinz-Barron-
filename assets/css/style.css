@@ -16,7 +16,11 @@ header {
 }
 
 h1 {
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 80px;
+}
+
+.br {
+  
 }
 
 ul li {
@@ -31,7 +35,7 @@ ul li {
 .flex {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items:center;
 }
 
 .t-falls {
@@ -80,6 +84,23 @@ a:visited {
 }
 
 
+/* found code for Circular Image on WebFX (below two classes):
+https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20CSS%20property%20responsible%20for%20the%20circular%20shape%20is,height%20results%20in%20a%20circle. */
+.circular--portrait {
+  position: relative;
+  left: -615px;
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid white;
+  -webkit-box-sizing: 500px;
+  -moz-border-radius: 500px;
+}
+
+.circular--portrait img {
+  width: 100%; height: auto;
+}
 
 
 /* use these when I start adding sections/blocks in my index.html*/
