@@ -80,6 +80,10 @@ a:visited {
 }
 
 
+
+
+/* use these when I start adding sections/blocks in my index.html*/
+
 /* used for making grids of the same sizes */
 .grid {
   display: grid;
