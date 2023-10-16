@@ -32,10 +32,10 @@ Here is are two examples I useed within my HTML to change the text color mid-sen
 * Note: this is a combination of HTML and CSS to make this happen. In CSS you need to make an "ID"(#) or a "Class"(.) to correspond with your HTML code. I kept these pretty simple, just changing the text-color.
 
 For my name at the top of the screen, here is what I used in HTML:
-* "<h1>Heinz<span class="ulrich">Ulrich</span>V</h1>"
+* https://github.com/TheOarsman/Who-Is-The-Heinz-Barron-/blob/55673913d908af54f550a11e300719cb3f5446da/index.html#L14
 
 For the "Michign State University" I used the same method, along with adding a link for to their Bootcamp page:
-* "<span class="msu">Michigan State Universiry</span> <a href="https://bootcamp.msu.edu/coding/">Coding Bootcamp</a>"
+* https://github.com/TheOarsman/Who-Is-The-Heinz-Barron-/blob/55673913d908af54f550a11e300719cb3f5446da/index.html#L48
 
 
 ## Links Where I Found Code Used in my CSS
