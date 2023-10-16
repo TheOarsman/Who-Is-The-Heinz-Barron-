@@ -122,6 +122,17 @@ https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20
 }
 
 /* used for overlaying a card with a title */
+.box-txts {
+  position: relative;
+  bottom: 15%;
+  right: 2%;
+  color: white;
+  font-size: larger;
+  text-align: right;
+  -webkit-text-stroke: 1px rgba(255, 102, 0, 0.863);
+}
+
+
 .box-txts1 {
   position: relative;
   bottom: 30%;
@@ -158,6 +169,15 @@ https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20
   -webkit-text-stroke: .5px rgba(255, 102, 0, 0.863);
 }
 
+.box-txt-tfalls {
+  position: relative;
+  bottom: 25%;
+  right: 2%;
+  color: white;
+  text-align: right;
+  -webkit-text-stroke: .5px rgba(255, 102, 0, 0.863);
+}
+
 /* found codes (below two) for "hover" here:
 https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Images-on-Hover */
 .thumbnail { 
@@ -178,6 +198,7 @@ https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Image
 
 
 /* used a box code from: https://www.shecodes.io/athena/9580-how-to-create-a-box-with-html-and-css */
+
 .box {
   width: 300px;
   height: 150px;
@@ -186,14 +207,7 @@ https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Image
   margin: 50px;
 }
 
-.box-1a {
-  position: relative;
-  width: 70%;
-  height: 150px;
-  background-color: 5px solid white;
-  border: 5px solid rgba(255, 102, 0, 0.863);
-  margin: 10px;
-}
+
 
 img {
   height: 100%;
