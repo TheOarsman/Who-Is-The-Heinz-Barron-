@@ -24,6 +24,7 @@ Some specific attributes within this page:
 * Changing font color mid-sentance
 * Keeping links the same color after clicking them
 * Turning a phone number into a link (That you can call!!!)
+* Displaying your code in your README
 
 ## Code Example
 
@@ -48,3 +49,4 @@ For the "Michign State University" I used the same method, along with adding a l
 * [Add Link to IMG](https://hyperise.com/blog/how-to-embed-a-hyperlink-in-an-image#:~:text=Insert%20the%20Code&text=Put%20the%20anchor%20tag%20%3Ca,http%3A%2F%2F%E2%80%9D%20before%20the%20link.&text=Now%20enjoy%20the%20hyperlink%20in,have%20followed%20these%20steps%20properly.)
 * [Link Color Remaining After Clicking](https://www.w3schools.com/html/html_links_colors.asp)
 * [Phone Number into a Link](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_phoneto)
+* [Adding Code to README](https://www.stevemar.net/github-code-in-readme/#:~:text=Here's%20a%20quick%20way%20to,show%20up%20in%20your%20README.&text=Go%20to%20the%20source%20code,in%20all%20of%20its%20glory!)
