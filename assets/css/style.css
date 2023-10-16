@@ -135,7 +135,7 @@ https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20
 
 .box-txts1 {
   position: relative;
-  bottom: 30%;
+  bottom: 48%;
   right: 2%;
   color: white;
   text-align: right;
@@ -144,7 +144,7 @@ https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20
 
 .box-txts2 {
   position: relative;
-  bottom: 54%;
+  bottom: 30%;
   right: 2%;
   color: white;
   text-align: right;
@@ -153,7 +153,7 @@ https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20
 
 .box-txts3 {
   position: relative;
-  bottom: 53%;
+  bottom: 48%;
   right: 2%;
   color: rgba(255, 102, 0, 0.863);
   text-align: right;
@@ -162,7 +162,16 @@ https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20
 
 .box-txts4 {
   position: relative;
-  bottom: 40%;
+  bottom: 38%;
+  right: 2%;
+  color: white;
+  text-align: right;
+  -webkit-text-stroke: .5px rgba(255, 102, 0, 0.863);
+}
+
+.box-txts5 {
+  position: relative;
+  bottom: 19%;
   right: 2%;
   color: white;
   text-align: right;
@@ -171,12 +180,13 @@ https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20
 
 .box-txt-tfalls {
   position: relative;
-  bottom: 25%;
+  bottom: 30%;
   right: 2%;
   color: white;
   text-align: right;
   -webkit-text-stroke: .5px rgba(255, 102, 0, 0.863);
 }
+
 
 /* found codes (below two) for "hover" here:
 https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Images-on-Hover */
@@ -199,15 +209,21 @@ https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Image
 
 /* used a box code from: https://www.shecodes.io/athena/9580-how-to-create-a-box-with-html-and-css */
 
-.box {
-  width: 300px;
-  height: 150px;
+.box1 {
+  width: 600px;
+  height: 300px;
   background-color: 5px solid white;
   border: 1px solid rgba(255, 102, 0, 0.863);
   margin: 50px;
 }
 
-
+.box {
+  width: 380px;
+  height: 190px;
+  background-color: 5px solid white;
+  border: 1px solid rgba(255, 102, 0, 0.863);
+  margin: 50px;
+}
 
 img {
   height: 100%;
