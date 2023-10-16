@@ -117,10 +117,59 @@ https://www.webfx.com/blog/web-design/circular-images-css/#:~:text=The%20main%20
 }
 
 /* used for overlaying a card with a title */
-.card-header-t-falls {
+.box-txts1 {
   position: relative;
-  margin-top: -20px;
+  bottom: 30%;
+  right: 2%;
+  color: white;
+  text-align: right;
+  -webkit-text-stroke: .5px rgba(255, 102, 0, 0.863);
 }
+
+.box-txts2 {
+  position: relative;
+  bottom: 54%;
+  right: 2%;
+  color: white;
+  text-align: right;
+  -webkit-text-stroke: .5px rgba(255, 102, 0, 0.863);
+}
+
+.box-txts3 {
+  position: relative;
+  bottom: 53%;
+  right: 2%;
+  color: rgba(255, 102, 0, 0.863);
+  text-align: right;
+  -webkit-text-stroke: .5px white;
+}
+
+.box-txts4 {
+  position: relative;
+  bottom: 40%;
+  right: 2%;
+  color: white;
+  text-align: right;
+  -webkit-text-stroke: .5px rgba(255, 102, 0, 0.863);
+}
+
+/* found codes (below two) for "hover" here:
+https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Images-on-Hover */
+.thumbnail { 
+  top:-50px; 
+  left:-35px; 
+  display:block; 
+  z-index:999; 
+  cursor: pointer; 
+  -webkit-transition-property: all; 
+  -webkit-transition-duration: 0.3s; 
+  -webkit-transition-timing-function: ease; 
+  } 
+  
+  /*change the number below to scale to the appropriate size*/ 
+  .thumbnail:hover { 
+  transform: scale(2); 
+  }
 
 
 /* used a box code from: https://www.shecodes.io/athena/9580-how-to-create-a-box-with-html-and-css */
