@@ -15,6 +15,10 @@ header {
   color: white;
 }
 
+.contact {
+  color: rgba(255, 102, 0, 0.863);
+}
+
 h1 {
   margin: 0px 0px 0px 80px;
 }
@@ -61,6 +65,7 @@ ul li {
 .about-me {
   background-color: #b8b6b6;
   padding: 1%;
+  text-align: left;
 }
 
 footer {
@@ -168,7 +173,7 @@ https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Image
   
   /*change the number below to scale to the appropriate size*/ 
   .thumbnail:hover { 
-  transform: scale(2); 
+  transform: scale(1.5); 
   }
 
 
@@ -178,7 +183,7 @@ https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Image
   height: 150px;
   background-color: 5px solid white;
   border: 1px solid rgba(255, 102, 0, 0.863);
-  margin: 10px;
+  margin: 50px;
 }
 
 .box-1a {
@@ -199,10 +204,10 @@ aside {
   flex: 1;
   background-color: #b8b6b6;
   padding: 80px;
-  text-align: center;
-  font-size: 100%;
+  text-align: right;
+  font-size: 150%;
   color: rgba(255, 102, 0, 0.863);
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: .35px white;
 }
 
 
@@ -242,6 +247,11 @@ main {
 .card img {
   width: 100%;
 }
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
